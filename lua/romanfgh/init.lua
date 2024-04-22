@@ -41,5 +41,9 @@ require("lazy").setup({
             -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
         }
     },
+
+    {
+        'vim-airline/vim-airline'
+    }
 })
 print("ENTERING THE ULTIMATE NEOVIM EXPERIENCE")
