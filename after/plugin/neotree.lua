@@ -31,7 +31,7 @@ require("neo-tree").setup({
             -- expander config, needed for nesting files
             with_expanders = nil, -- if nil and file nesting is enabled, will enable expanders
             expander_collapsed = "",
-            expander_expanded = "",
+            expander_expanded = ",",
             expander_highlight = "NeoTreeExpander",
         },
         icon = {

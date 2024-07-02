@@ -10,7 +10,8 @@ require("mason-lspconfig").setup({
 		"lua_ls",
 		"dockerls",
 		"docker_compose_language_service",
-        "pylsp"
+        "pylsp",
+        "gopls"
 	},
 	handlers = {
 		--- this first function is the "default handler"
