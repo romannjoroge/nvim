@@ -4,14 +4,12 @@ lsp.preset("recommended")
 require("mason").setup({})
 require("mason-lspconfig").setup({
 	ensure_installed = {
-		"tsserver",
 		"rust_analyzer",
 		"eslint",
 		"lua_ls",
 		"dockerls",
 		"docker_compose_language_service",
         "pylsp",
-        "gopls"
 	},
 	handlers = {
 		--- this first function is the "default handler"
